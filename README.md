@@ -1,1 +1,1 @@
-A Paillier calculator using Java's BibInteger library 
+A Paillier calculator using Java's BigInteger library 
