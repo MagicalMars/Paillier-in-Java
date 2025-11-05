@@ -57,7 +57,7 @@ public class Paillier{//I used to think it was spelt as Pallier.
 
         //privkey is (lambda, mu)
 
-        //m2 = L(x^lambda mod n^2) * mu mod n
+        //m2 = L(c^lambda mod n^2) * mu mod n
         BigInteger m2 = c.modPow(lambda, nSq).subtract(BigInteger.ONE).divide(n).multiply(mu).mod(n);
 
 
